@@ -1,0 +1,9 @@
+This file is to drop random bits of knowledge/nomenclature/etc that is domain specific to neuroscience/digital signal process/the dataset as a whole.
+
+Power Spectral Density (PSD) Graph - 
+A PSD graph visually represents the distribution of power within a signal across different frequencies. It's essentially a **frequency domain representation of a signal's energy**, showing which frequencies contribute most to the signal's power. X-axis = Hz. Y-axis represents the power spectral density, which quantifies the amount of power present at each frequency.
+
+PCA vs ICA -
+PCA aims to find uncorrelated principal components that capture the most variance in the data.
+ICA focuses on finding statistically independent components that represent the original sources of the data. Assumes that the observed data is a linear combination of independent sources.
+PCA aims to reduce dimensionality, while ICA aims to separate sources. 

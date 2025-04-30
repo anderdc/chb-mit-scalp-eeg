@@ -1,0 +1,4906 @@
+[
+  {
+    "file_name": "chb15_01.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_02.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_03.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_04.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_05.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_06.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_07.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_08.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_09.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_10.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_11.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_12.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_13.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_14.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_15.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_16.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_17.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "11",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_19.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_20.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_22.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_26.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_28.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_29.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_30.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_31.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_32.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_33.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_35.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_37.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_40.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 3
+  },
+  {
+    "file_name": "chb15_45.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_46.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_49.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_50.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_51.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_52.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_54.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 5
+  },
+  {
+    "file_name": "chb15_61.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb15_62.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb15_63.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_01.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_02.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_03.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_04.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_05.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_06.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_07.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_08.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_09.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_10.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb16_11.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb16_12.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_13.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_14.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb16_15.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb16_16.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb16_17.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 4
+  },
+  {
+    "file_name": "chb16_18.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb16_19.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_01.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_02.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_03.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_04.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_05.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_06.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_07.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_08.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_09.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_10.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_11.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_15.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_16.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_17.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_18.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_19.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_20.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb22_21.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_22.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_23.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_24.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_25.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb22_26.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_27.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_28.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_29.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_30.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_38.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb22_51.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_54.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb22_77.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_02.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_03.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_04.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_05.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_06.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_07.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_08.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_09.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_10.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_11.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_12.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_13.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_14.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_15.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_16.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_18.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_19.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb13_21.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb13_22.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_24.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_30.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_36.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_37.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_38.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_39.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_40.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb13_47.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_55.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb13_56.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb13_58.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb13_59.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb13_60.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb13_62.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 3
+  },
+  {
+    "file_name": "chb20_01.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_02.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_03.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_04.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_05.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_06.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_07.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_08.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_11.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_12.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb20_13.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb20_14.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb20_15.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb20_16.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb20_17.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_21.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_22.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_23.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_25.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_26.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_27.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_28.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_29.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_30.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_31.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_34.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_59.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_60.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb20_68.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb07_01.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_02.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "25",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_03.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_04.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_05.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_06.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_07.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_08.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_09.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_10.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "27",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_11.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_12.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "11",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb07_13.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb07_14.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_15.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_16.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_17.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_18.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb07_19.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb02_01.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_02.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_03.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_04.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_05.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_06.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_07.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_08.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_09.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_10.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_11.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_12.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_13.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_14.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_15.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_16.edf",
+    "seizures": [
+      {
+        "start": 130,
+        "end": 212
+      }
+    ],
+    "start_time": "09",
+    "end_time": "9",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb02_16+.edf",
+    "seizures": [
+      {
+        "start": 2972,
+        "end": 3053
+      }
+    ],
+    "start_time": "10",
+    "end_time": "11",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb02_17.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_18.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_19.edf",
+    "seizures": [
+      {
+        "start": 3369,
+        "end": 3378
+      }
+    ],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb02_20.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_21.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_22.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_23.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_24.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_25.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_26.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_27.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_28.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_29.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_30.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_31.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_32.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_33.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_34.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb02_35.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_01.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_02.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_03.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_04.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_05.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_06.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_07.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_08.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_09.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_10.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_11.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_12.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_13.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_14.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_15.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_16.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_17.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_18.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_19.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb21_20.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb21_21.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb21_22.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb21_23.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_24.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_25.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_26.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_27.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_28.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_29.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_30.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_31.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_32.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb21_33.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_01.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_02.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_03.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_04.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_05.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_06.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "16",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb09_07.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_08.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "24",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb09_09.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_10.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_11.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_12.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_13.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_14.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_15.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_16.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_17.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_18.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb09_19.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "14",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb14_01.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_02.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_03.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb14_04.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb14_06.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb14_07.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_11.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb14_12.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_13.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_14.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_16.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_17.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb14_18.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb14_19.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_20.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_22.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_24.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_25.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_26.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_27.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb14_29.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_30.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_32.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_37.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_39.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb14_42.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17a_03.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb17a_04.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb17a_05.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17a_06.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17a_08.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17b_57.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17b_58.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17b_59.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17b_60.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17b_63.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb17b_67.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17b_68.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17b_69.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_02.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_03.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_04.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_05.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_06.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_07.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_08.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb17c_13.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_01.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_02.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_03.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_04.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_05.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_06.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_07.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_08.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_09.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_10.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_11.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_12.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_13.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_14.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_15.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_16.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_17.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_18.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_19.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_20.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_21.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_22.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_23.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_24.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_25.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_26.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_27.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_28.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_29.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb18_30.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb18_31.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "10",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb18_32.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb18_33.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_34.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb18_35.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb18_36.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb11_01.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_02.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_03.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_04.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_05.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_06.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_07.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_08.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_09.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_10.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_11.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_12.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_13.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_14.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_15.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_16.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_17.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_18.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_19.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_24.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_25.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_26.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_27.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_53.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_54.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_55.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_56.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_58.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_60.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_61.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_62.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_63.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb11_82.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb11_92.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb11_99.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb23_06.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "11",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb23_07.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb23_08.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "14",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb23_09.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "18",
+    "num_seizures": 4
+  },
+  {
+    "file_name": "chb23_10.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb23_16.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb23_17.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb23_19.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb23_20.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_01.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_02.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_03.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_04.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_05.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_06.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_07.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_08.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_09.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_10.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_11.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_12.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_13.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_14.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_15.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_16.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_17.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_18.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_19.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_20.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_21.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_22.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_23.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_24.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_25.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_26.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_27.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb19_28.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb19_29.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb19_30.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb08_02.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb08_03.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_04.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_05.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb08_10.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_11.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb08_12.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_13.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb08_14.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_15.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_16.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_17.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_18.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_19.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_20.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_21.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb08_22.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_23.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_24.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb08_29.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_06.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb12_08.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 4
+  },
+  {
+    "file_name": "chb12_09.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb12_10.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb12_11.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb12_19.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_20.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_21.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_23.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 3
+  },
+  {
+    "file_name": "chb12_24.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_27.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 6
+  },
+  {
+    "file_name": "chb12_28.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb12_29.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 6
+  },
+  {
+    "file_name": "chb12_32.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_33.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb12_34.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_35.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_36.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb12_37.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_38.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 5
+  },
+  {
+    "file_name": "chb12_39.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_40.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_41.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb12_42.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 5
+  },
+  {
+    "file_name": "chb06_01.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "23",
+    "num_seizures": 3
+  },
+  {
+    "file_name": "chb06_02.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "27",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_03.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_04.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "10",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb06_05.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_06.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_07.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_08.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "26",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_09.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "6",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb06_10.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "10",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb06_12.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_13.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "22",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb06_14.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "26",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_15.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_16.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_17.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb06_18.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "13",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb06_24.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_01.edf",
+    "seizures": [
+      {
+        "start": 362,
+        "end": 414
+      }
+    ],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_02.edf",
+    "seizures": [
+      {
+        "start": 731,
+        "end": 796
+      }
+    ],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_03.edf",
+    "seizures": [
+      {
+        "start": 432,
+        "end": 501
+      }
+    ],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_04.edf",
+    "seizures": [
+      {
+        "start": 2162,
+        "end": 2214
+      }
+    ],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_05.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_06.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_07.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_08.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_09.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_10.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_11.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_12.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_13.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_14.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_15.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_16.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_17.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_18.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_19.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_20.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_21.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_22.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_23.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_24.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_25.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_26.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_27.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_28.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_29.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_30.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_31.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_32.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_33.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_34.edf",
+    "seizures": [
+      {
+        "start": 1982,
+        "end": 2029
+      }
+    ],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_35.edf",
+    "seizures": [
+      {
+        "start": 2592,
+        "end": 2656
+      }
+    ],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_36.edf",
+    "seizures": [
+      {
+        "start": 1725,
+        "end": 1778
+      }
+    ],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb03_37.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb03_38.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_01.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_02.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "26",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_03.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_04.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_05.edf",
+    "seizures": [
+      {
+        "start": 7804,
+        "end": 7853
+      }
+    ],
+    "start_time": "10",
+    "end_time": "12",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb04_06.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_07.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_08.edf",
+    "seizures": [
+      {
+        "start": 6446,
+        "end": 6557
+      }
+    ],
+    "start_time": "18",
+    "end_time": "22",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb04_09.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "26",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_10.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_11.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_12.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_13.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_14.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_15.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_16.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_17.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_18.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_19.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_21.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_22.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_23.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_24.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_25.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_26.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_27.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_28.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb04_29.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_30.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_31.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_32.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_33.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_34.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_35.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_36.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_37.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_38.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_39.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_40.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "26",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_41.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_42.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb04_43.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb24_01.edf",
+    "seizures": [
+      {
+        "start": 480,
+        "end": 505
+      },
+      {
+        "start": 2451,
+        "end": 2476
+      }
+    ],
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb24_03.edf",
+    "seizures": [
+      {
+        "start": 231,
+        "end": 260
+      },
+      {
+        "start": 2883,
+        "end": 2908
+      }
+    ],
+    "num_seizures": 2
+  },
+  {
+    "file_name": "chb24_04.edf",
+    "seizures": [
+      {
+        "start": 1088,
+        "end": 1120
+      },
+      {
+        "start": 1411,
+        "end": 1438
+      },
+      {
+        "start": 1745,
+        "end": 1764
+      }
+    ],
+    "num_seizures": 3
+  },
+  {
+    "file_name": "chb24_06.edf",
+    "seizures": [
+      {
+        "start": 1229,
+        "end": 1253
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_07.edf",
+    "seizures": [
+      {
+        "start": 38,
+        "end": 60
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_09.edf",
+    "seizures": [
+      {
+        "start": 1745,
+        "end": 1764
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_11.edf",
+    "seizures": [
+      {
+        "start": 3527,
+        "end": 3597
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_13.edf",
+    "seizures": [
+      {
+        "start": 3288,
+        "end": 3304
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_14.edf",
+    "seizures": [
+      {
+        "start": 1939,
+        "end": 1966
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_15.edf",
+    "seizures": [
+      {
+        "start": 3552,
+        "end": 3569
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_17.edf",
+    "seizures": [
+      {
+        "start": 3515,
+        "end": 3581
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb24_21.edf",
+    "seizures": [
+      {
+        "start": 2804,
+        "end": 2872
+      }
+    ],
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb10_01.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_02.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_03.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_04.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "25",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_05.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_06.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_07.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_08.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_12.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "17",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb10_13.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_14.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_15.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_16.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "25",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_17.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_18.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_19.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_20.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "9",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb10_21.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_22.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_27.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "24",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb10_28.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb10_30.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "6",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb10_31.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb10_38.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "16",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb10_89.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "18",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_01.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_02.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_03.edf",
+    "seizures": [
+      {
+        "start": 2996,
+        "end": 3036
+      }
+    ],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_04.edf",
+    "seizures": [
+      {
+        "start": 1467,
+        "end": 1494
+      }
+    ],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_05.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_06.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_07.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_08.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_09.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_10.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_11.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_12.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_13.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_14.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_15.edf",
+    "seizures": [
+      {
+        "start": 1732,
+        "end": 1772
+      }
+    ],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_16.edf",
+    "seizures": [
+      {
+        "start": 1015,
+        "end": 1066
+      }
+    ],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_17.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_18.edf",
+    "seizures": [
+      {
+        "start": 1720,
+        "end": 1810
+      }
+    ],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_19.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_20.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_21.edf",
+    "seizures": [
+      {
+        "start": 327,
+        "end": 420
+      }
+    ],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_22.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_23.edf",
+    "seizures": [],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_24.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_25.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_26.edf",
+    "seizures": [
+      {
+        "start": 1862,
+        "end": 1963
+      }
+    ],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb01_27.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_29.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_30.edf",
+    "seizures": [],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_31.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_32.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_33.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_34.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_36.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_37.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_38.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_39.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_40.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_41.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_42.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_43.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb01_46.edf",
+    "seizures": [],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_01.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_02.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_03.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_04.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_05.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_06.edf",
+    "seizures": [
+      {
+        "start": 417,
+        "end": 532
+      }
+    ],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb05_07.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_08.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_09.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_10.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_11.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_12.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_13.edf",
+    "seizures": [
+      {
+        "start": 1086,
+        "end": 1196
+      }
+    ],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb05_14.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_15.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_16.edf",
+    "seizures": [
+      {
+        "start": 2317,
+        "end": 2413
+      }
+    ],
+    "start_time": "08",
+    "end_time": "9",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb05_17.edf",
+    "seizures": [
+      {
+        "start": 2451,
+        "end": 2571
+      }
+    ],
+    "start_time": "09",
+    "end_time": "10",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb05_18.edf",
+    "seizures": [],
+    "start_time": "10",
+    "end_time": "11",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_19.edf",
+    "seizures": [],
+    "start_time": "11",
+    "end_time": "12",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_20.edf",
+    "seizures": [],
+    "start_time": "12",
+    "end_time": "13",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_21.edf",
+    "seizures": [],
+    "start_time": "13",
+    "end_time": "14",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_22.edf",
+    "seizures": [
+      {
+        "start": 2348,
+        "end": 2465
+      }
+    ],
+    "start_time": "14",
+    "end_time": "15",
+    "num_seizures": 1
+  },
+  {
+    "file_name": "chb05_23.edf",
+    "seizures": [],
+    "start_time": "15",
+    "end_time": "16",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_24.edf",
+    "seizures": [],
+    "start_time": "16",
+    "end_time": "17",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_25.edf",
+    "seizures": [],
+    "start_time": "17",
+    "end_time": "18",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_26.edf",
+    "seizures": [],
+    "start_time": "18",
+    "end_time": "19",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_27.edf",
+    "seizures": [],
+    "start_time": "19",
+    "end_time": "20",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_28.edf",
+    "seizures": [],
+    "start_time": "20",
+    "end_time": "21",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_29.edf",
+    "seizures": [],
+    "start_time": "21",
+    "end_time": "22",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_30.edf",
+    "seizures": [],
+    "start_time": "22",
+    "end_time": "23",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_31.edf",
+    "seizures": [],
+    "start_time": "23",
+    "end_time": "24",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_32.edf",
+    "seizures": [],
+    "start_time": "00",
+    "end_time": "1",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_33.edf",
+    "seizures": [],
+    "start_time": "01",
+    "end_time": "2",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_34.edf",
+    "seizures": [],
+    "start_time": "02",
+    "end_time": "3",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_35.edf",
+    "seizures": [],
+    "start_time": "03",
+    "end_time": "4",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_36.edf",
+    "seizures": [],
+    "start_time": "04",
+    "end_time": "5",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_37.edf",
+    "seizures": [],
+    "start_time": "05",
+    "end_time": "6",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_38.edf",
+    "seizures": [],
+    "start_time": "06",
+    "end_time": "7",
+    "num_seizures": 0
+  },
+  {
+    "file_name": "chb05_39.edf",
+    "seizures": [],
+    "start_time": "07",
+    "end_time": "8",
+    "num_seizures": 0
+  }
+]
