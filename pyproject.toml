@@ -1,0 +1,17 @@
+[project]
+name = "chb_mit_seizure_prediction"
+version = "0.1.0"
+description = "Tools and methods for parsing and analyzing CHB-MIT EEG seizure data"
+authors = [{ name="Alexander Castaneda", email="alexanderdcastaneda@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["jupyter", "black"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["extraction"]

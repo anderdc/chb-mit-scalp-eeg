@@ -12,7 +12,8 @@ Anyone can access the data, download via wget in terminal.
 ```bash
 wget -r -N -c -np https://physionet.org/files/chbmit/1.0.0/
 
-# The initial download creates many subfolders, move them up as many levels
+# Note: this might be slow, use the S2 link to pull from AWS S2
+# The initial download creates many subfolders, move them up as many levels as you'd like
 
 ```
 
