@@ -19,3 +19,15 @@ The raw EEG has usually been described in terms of frequency bands:
 Generally involved in deeply relaxed states
 
 (Read more on brain waves here)[https://nhahealth.com/brainwaves-the-language/]
+
+Ictal is the period during a seizure.
+interictal is the period that is not a seizure.
+there is also pre and post ictal which is before and after a seizure respectively.
+
+Mean Absolute Value (MAV) - 
+The average magnitude of the signal in a given window.
+Take an average of the absolute values for a given list
+
+Bipolar Channels (IMPORTANT) -
+Due to the setup of the sensors/EEG cap for this dataset, the channels are bipolar.
+Meaning each channel reflects the difference between two scalp electrodes.
