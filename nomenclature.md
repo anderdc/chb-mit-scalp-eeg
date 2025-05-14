@@ -11,7 +11,7 @@ PCA aims to reduce dimensionality, while ICA aims to separate sources.
 
 Brain Wave Categories - 
 The raw EEG has usually been described in terms of frequency bands: 
-- Gamma (30-44Hz)
+- Gamma (30-45+Hz)
 - BETA (13-30Hz)
 - ALPHA (8-12 Hz)
 - THETA (4-8 Hz)
@@ -20,6 +20,7 @@ Generally involved in deeply relaxed states
 
 (Read more on brain waves here)[https://nhahealth.com/brainwaves-the-language/]
 
+Preictal, Postictal, Interictal, Ictal -
 Ictal is the period during a seizure.
 interictal is the period that is not a seizure.
 there is also pre and post ictal which is before and after a seizure respectively.
@@ -31,3 +32,11 @@ Take an average of the absolute values for a given list
 Bipolar Channels (IMPORTANT) -
 Due to the setup of the sensors/EEG cap for this dataset, the channels are bipolar.
 Meaning each channel reflects the difference between two scalp electrodes.
+
+Absolute Band Power (ABP) - 
+Frequency domain feature that is the integration of the PSD over a certain band of frequencies.
+e.g. Alpha ABP would be the PSD integrated over 8-13Hz
+
+Relative Band Power -
+Like absolute band power except this value is 'normalized'.
+Basically take ABP and divide it over the total power (which is also an ABP over 0.5-45Hz)
