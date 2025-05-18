@@ -1,5 +1,5 @@
 This file is to drop random bits of knowledge/nomenclature/etc that is domain specific to neuroscience/digital signal process/the dataset as a whole.
-Almost like an Appendix of all the things I'm learning as I do this project.
+Basically a Glossary/Appendix of all the things I'm learning as I do this project.
 
 Power Spectral Density (PSD) Graph - 
 A PSD graph visually represents the distribution of power within a signal across different frequencies. It's essentially a **frequency domain representation of a signal's energy**, showing which frequencies contribute most to the signal's power. X-axis = Hz. Y-axis represents the power spectral density, which quantifies the amount of power present at each frequency.
@@ -39,4 +39,12 @@ e.g. Alpha ABP would be the PSD integrated over 8-13Hz
 
 Relative Band Power -
 Like absolute band power except this value is 'normalized'.
-Basically take ABP and divide it over the total power (which is also an ABP over 0.5-45Hz)
+Basically take ABP and divide it over the total power (which is ABP over 0.5-45Hz)
+
+Spectral Entropy - 
+a measure of the complexity of a spectrum, specifically how "random" or evenly distributed the spectral power is across different frequencies
+e.g. white noise (since it has a more even spread PSD) it will have a higher spectral entropy
+[Read more here](https://dsp.stackexchange.com/questions/23689/what-is-spectral-entropy)
+Basically, take a signal, convert to frequency domain, take the psd, normalize the psd so that it's like a probability function, take entropy of that.
+If every 'outcome' of that probaility function is about the same, that results in high entropy.
+Compared to a probability function with only a few highly probable outcomes, the entropy of that is lower.
