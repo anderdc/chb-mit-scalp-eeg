@@ -48,3 +48,16 @@ e.g. white noise (since it has a more even spread PSD) it will have a higher spe
 Basically, take a signal, convert to frequency domain, take the psd, normalize the psd so that it's like a probability function, take entropy of that.
 If every 'outcome' of that probaility function is about the same, that results in high entropy.
 Compared to a probability function with only a few highly probable outcomes, the entropy of that is lower.
+
+Multiple ways of calculating PSD -
+The ways of estimating PSD's have trade offs between accuracy, robustness, and computation time. from 'worst' to 'best'
+- periodogram
+fast, simple, but sensitive to noise. rarely used in research
+- welch
+balance between noise reduction & resolution. most common method in EEG feature extraction!
+- multitaper
+best spectral resolution & variance reduction. slower/complex. only should be used when fine/precise frequency content is needed (clinical research)
+
+
+
+

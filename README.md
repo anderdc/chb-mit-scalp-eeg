@@ -66,13 +66,13 @@ So far, this is the general path I've followed throughout the project
 
   - Loading and preprocessing data
 
-        Preprocessing data looked like: dropping 'dead' channels that had no signal, loading up seizure onsets/ends for the file, annotating the data with the seizure onsets/duration, segmenting the data with a specific WINDOWSIZE and OVERLAP, and creating a label (target) vector that was |segments| x 1 large for future training/visualization.
+    Preprocessing data looked like: dropping 'dead' channels that had no signal, loading up seizure onsets/ends for the file, annotating the data with the seizure onsets/duration, segmenting the data with a specific WINDOWSIZE and OVERLAP, and creating a label (target) vector that was |segments| x 1 large for future training/visualization.
 
   - Feature Extraction
  
-        I started with extracting time-domain features such as: mean, VAR, MAV, Skewness.
+    I started with extracting time-domain features such as: mean, VAR, MAV, Skewness.
  
-        I then moved on to extracting frequency domain features: Absolute Band Power, Relative Band Power, Spectral Entropy, Peak Frequency
+    I then moved on to extracting frequency domain features: Absolute Band Power, Relative Band Power, Spectral Entropy, Peak Frequency
 
   - Feature Selection
  
