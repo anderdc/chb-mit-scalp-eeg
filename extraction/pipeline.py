@@ -39,7 +39,7 @@ def bandpower(
     relative: bool = True,
     **kwargs,
 ) -> NDArray[np.float64]:
-    """Compute the bandpower of the individual channels.
+    """Compute the bandpower of the individual channels using welch's method.
 
     Parameters
     ----------

@@ -108,7 +108,8 @@ if __name__ == "__main__":
     This script will:
     - Recursively find all -summary.txt files under the specified directory
     - Parse them for seizure information
-    - Save all results as a JSON file at the root of the dataset directory
+    - Save all results as a JSON file at the root of the given dataset directory
+    - file is saved as 'all_summary_data.json'
     '''
     parser = argparse.ArgumentParser(description="Summary Analyzer")
     parser.add_argument(
