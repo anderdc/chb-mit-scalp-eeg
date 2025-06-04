@@ -98,10 +98,9 @@ def crawl_and_parse(base_dir: str) -> list:
 
     return results
 
-
 if __name__ == "__main__":
     '''
-    Example usage (run from project root):
+    Example usage (if ran from project root):
 
         python -m extraction.parse_summaries --data-path ./data
 

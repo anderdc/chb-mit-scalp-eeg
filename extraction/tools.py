@@ -1,7 +1,25 @@
 import json
 import os
 
-def get_all_seizures():
+def get_all_edf_files() -> list[str]:
+    """
+        gets all file paths from data directory and return them as a list
+
+        The function assumes the data directory is located at: <project_root>/data. (../data relative to this script)
+    """
+    script_path = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(script_path, '..', 'data')
+
+    all_files = list()
+
+    for root, dirs, files in os.walk(data_path):
+        for file in files:
+            if file.endswith('.edf'):
+                all_files.append(file)
+
+    return all_files
+
+def get_all_seizures() -> list[dict]:
     """
     Reads the all_summary_data.json file and returns a flattened list of seizures.
     
@@ -42,9 +60,10 @@ def get_all_seizures():
             
     return flattened
 
-def get_seizure_path(filename: str):
+def get_seizure_path(filename: str) -> str:
     """
         given a filename to an .edf file, expand to get the full path from root of data directory
+        tbh should just be named 'get_edf_path'
     """
     patient_id = filename.split("_")[0]
     project_root = os.path.dirname(os.path.abspath(__file__))
