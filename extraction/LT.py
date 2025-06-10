@@ -1,5 +1,6 @@
 import pandas as pd
 import mne
+import numpy as np
 
 from extraction.tools import get_all_edf_files, get_seizure_path, get_all_seizures
 
@@ -8,11 +9,13 @@ OVERLAP = (0.5) * WINDOW_SIZE   # ALSO in seconds... doing it like this so I can
 
 '''
     Load-Transform pipeline class that takes in list of EEG files to parse and will
-    - annotate
-    - segment
-    - label
-    - feature extract
-    - train/test split
+    load:
+        - annotate
+        - segment
+        - label
+    transform:
+        - feature extract
+        - train/test split
     the data and store it all in a pandas dataframe 
 '''
 class LT:
@@ -31,15 +34,26 @@ class LT:
 
     def process(self, file_name: str):
         """
-            Takes one file name and its expanded path, and runs the full pipeline process on it
+            Takes one file name, and runs the whole the pipeline on it, returns a dataframe
         """
-        raw = annotate(file_name)
+        # pre-processing
+        raw = self.annotate(file_name)
+        
         raw.drop_channels(['--0', '--1', '--2', '--3', '--4', '--5'])   # dud channels
+        raw.filter(l_freq=1, h_freq=50)
+        
+        X, y = self.segment(raw)
 
-
+        # transform
+        # TODO - you are here!
+        # - extract all the features I used in feature_extraction
+        # - make a function for each feature extracted
+        # - call all functions
+        # - put it all into a dataframe alongside the label vector
+        
     def annotate(self, file_name) -> mne.io.Raw:
         """
-            Takes a file name, reads its contents, converts to raw, and annotates it if it contains any seizures
+            Takes a file name, reads its contents, converts to mne.io.raw, and annotates it if it contains any seizures
         """
         raw = mne.io.read_raw_edf(get_seizure_path(file_name), preload=True)
         
@@ -56,15 +70,17 @@ class LT:
             onsets.append(seizure.start) 
             durations.append(seizure.end - seizure.start)
             descriptions.append("ictal")
-            
+
         annotations = mne.Annotations(onset=onsets, duration=durations, description=descriptions)
         raw.set_annotations(annotations)
         return raw
 
-    def segment(self, raw: mne.io.Raw):
+    def segment(self, raw: mne.io.Raw) -> tuple(np.ndarray, list[int]):
         """
-            Takes an mne.io.raw and segments it based on window size and overlap, returning an nd array
+            Takes an ANNOTATED mne.io.raw and segments it based on window size and overlap, returning an nd array
             Also generates a corresponding label vector for the segmented data
+            returns:
+                epoch data which is a (segments x channels x samples) dimensional array. aka (n_epochs, n_channels, n_times)
         """
         epochs = mne.make_fixed_length_epochs(raw, duration=self.window_size, overlap=self.overlap, preload=True)
         # print('total segments:', len(epochs))
@@ -84,10 +100,8 @@ class LT:
             )
             labels.append(int(is_seizure))
 
-        # TODO: ****************** FIGURE OUT WHAT I want to return from this func, dataframe? raw + label vector? idk yet
-
-    def load(self):
-        pass
+        # return as 3 dimensional array. (segements x channels x samples). e.g. axis=2 runs along samples
+        return (epochs.get_data(), labels)
 
 
     # def transform(self):
