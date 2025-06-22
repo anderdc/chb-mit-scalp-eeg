@@ -12,7 +12,8 @@ bleach==6.2.0
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
--e git+ssh://git@github.com/anderdc/chb-mit-scalp-eeg.git@3f3427001b537dbcd8874ba22b021429a3aca88f#egg=chb_mit_seizure_prediction
+-e git+ssh://git@github.com/anderdc/chb-mit-scalp-eeg.git@a03f1d598c1a85f9037f2d24fd68ef3737d086e7#egg=chb_mit_seizure_prediction
+colorlog==6.9.0
 comm==0.2.2
 contourpy==1.3.2
 cycler==0.12.1
