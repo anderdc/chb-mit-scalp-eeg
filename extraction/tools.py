@@ -19,6 +19,10 @@ def get_all_edf_files() -> list[str]:
 
     return all_files
 
+def get_all_edf_files_for_patient(patient_id: str) -> list[str]:
+    files = get_all_edf_files()
+    return [file for file in files if file.startswith(patient_id)]
+
 def get_all_seizures() -> list[dict]:
     """
     Reads the all_summary_data.json file and returns a flattened list of seizures.

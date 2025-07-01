@@ -1,6 +1,6 @@
 # CHB-MIT Scalp EEG Dataset
 
-My goal is to become more acquainted/familiar with time-series data, digital signal processing, preprocessing pipelines, and ML/AI solutions that utilize these type of data. The [CHB-MIT scalp EEG dataset](https://physionet.org/content/chbmit/1.0.0/) contains real time-series data of pediatric subjects and is the focus of this project.
+My goal is to become more acquainted/familiar with time-series data, digital signal processing, preprocessing pipelines, and ML/AI solutions that utilize these type of data. The [CHB-MIT scalp EEG dataset](https://physionet.org/content/chbmit/1.0.0/) contains real time-series data of pediatric subjects. The focus of this project is to create a classifier that can distinguish seizure and non-seizure states.
 
 ### Technology Used
 
@@ -28,25 +28,18 @@ virtualenv -p=/usr/bin/python3.11 ./venv
 pip install -r requirements.txt
 ```
 
-### Running Jupyter lab on a remote server
+#### Running Jupyter lab on a remote server
 
 ```bash
-# run in background
-jupyter lab --no-browser --ip=100.109.213.114 --port=8080 > logs/jupyter.log 2>&1 &
+source venv/bin/activate
 
-# Note: the ip used was my tailscale ip so I could access through other machines on my tailscale network
+# run in background
+jupyter lab --no-browser --ip=<your_server_ip> --port=8080 > logs/jupyter.log 2>&1 &
 ```
 
+## Inspiration
 
-## Inspiration & Goal
-
-[Professor Millan](https://www.ece.utexas.edu/people/faculty/jose-del-r-millan) was the instructor for one of my last undergraduate classes at UT. His class, neural engineering, covered many advanced topics: cochlear implants, robotic prosthesis, TMS/TACS, BCI's, Deep brain stimulation, etc.. Every lecture was eye opening, inspiring, and interesting. My favorite part involved a homework where we created an ML model (SVM) to predict whether a rat's sciatic nerve was experiencing a pinch, flexion, or at rest. Multiclass classification. In order to whet that interest, I decided (as an ML/AI hobbyist) to take a real EEG dataset and try my hand at building a model, so binary classification of seizure states seem most interesting and doable.
-
-The goal is to build an ML model (most likely SVM) to predict whether a segment of data is ictal (seizure) or interictal (non-seizure). Then, to build an AI model (RNN? Transformer?) that will do the same thing.
-
-*Note: Stretch goal is once you have a functioning model, productionize the model and create a full end to end ML/AI pipeline?*
-
-*Note: Perhaps when everything is all said and done, do another model that does multiclass classification, and the classes are: ictal (seizure), pre-ictal (just before a seizure), interictal (nonseizure)*
+[Professor Millan](https://www.ece.utexas.edu/people/faculty/jose-del-r-millan) was the instructor for one of my last undergraduate classes at UT. His class, neural engineering, covered many advanced topics: cochlear implants, robotic prosthesis, TMS/TACS, BCI's, Deep brain stimulation, etc.. Every lecture was eye opening, inspiring, and interesting. My favorite part involved a homework where we created an ML model (SVM) to predict whether a rat's sciatic nerve was experiencing a pinch, flexion, or at rest. Multiclass classification. In order to whet that interest, I decided (as an ML/AI hobbyist) to take a real EEG dataset and try my hand at building a model, so binary classification of seizure states seemed most similar and doable.
 
 ### Path
 
@@ -54,11 +47,11 @@ So far, this is the general path I've followed throughout the project
 
 - exploratory data analyis
 
-    basic understanding of how much data, which patients experience the most individual seizures, most/least seizure time, total interictal time vs total ictal time, basic data visualization
+basic understanding of how much data, which patients experience the most individual seizures, most/least seizure time, total interictal time vs total ictal time, basic data visualization
 
 - processing the summary files
 
-    This dataset had summary files per patient data file that detailed the onsets and end times of each seizure. These files had to be parsed via python script and prepared for easy access later for data preprocessing and labeling.
+This dataset had summary files per patient data file that detailed the onsets and end times of each seizure. These files had to be parsed via python script and prepared for easy access later for data preprocessing and labeling.
 
 - selecting one patient's file
 
@@ -74,14 +67,9 @@ So far, this is the general path I've followed throughout the project
  
     I then moved on to extracting frequency domain features: Absolute Band Power, Relative Band Power, Spectral Entropy, Peak Frequency
 
-  - Feature Selection
- 
+- Generalizing the data pipeline for all patient files 
 
-
-  - Data Filtering, and Channel Selection
-
-
-
+Deciding how to train test split the data required diving into some real research! I found that [splitting by subject](https://pmc.ncbi.nlm.nih.gov/articles/PMC11099244/) is the standard. Also, cross validation could be done by leaving one patient out and rotating for all patients. Now I can prevent data leakage and create more generalizable models.
 
 
 
