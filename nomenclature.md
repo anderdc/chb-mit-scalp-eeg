@@ -61,6 +61,6 @@ balance between noise reduction & resolution. most common method in EEG feature 
 - multitaper
 best spectral resolution & variance reduction. slower/complex. only should be used when fine/precise frequency content is needed (clinical research)
 
-
-
+Train Test Splitting -
+Deciding how to train test split the data required diving into some real research! I found that [splitting by subject](https://pmc.ncbi.nlm.nih.gov/articles/PMC11099244/) is the standard/preferred. Also, cross validation could be done by leaving one patient out and rotating for all patients. Now I can prevent data leakage and create more generalizable models.
 

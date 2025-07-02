@@ -69,7 +69,6 @@ This dataset had summary files per patient data file that detailed the onsets an
 
 - Generalizing the data pipeline for all patient files 
 
-Deciding how to train test split the data required diving into some real research! I found that [splitting by subject](https://pmc.ncbi.nlm.nih.gov/articles/PMC11099244/) is the standard. Also, cross validation could be done by leaving one patient out and rotating for all patients. Now I can prevent data leakage and create more generalizable models.
 
 
 

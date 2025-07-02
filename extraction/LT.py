@@ -6,10 +6,13 @@ import antropy as ent
 from typing import Tuple, List
 from functools import reduce
 from sklearn.preprocessing import StandardScaler
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from extraction.tools import get_all_edf_files, get_seizure_path, get_all_seizures
 from extraction.pipeline import bandpower
 from extraction.logger import logger
+
+THREAD_COUNT = 4   # controls how many files can be processed in parallel
 
 WINDOW_SIZE = 2.5  # in seconds
 OVERLAP = (0.5) * WINDOW_SIZE   # ALSO in seconds... doing it like this so I can just set as a % of window size
@@ -35,11 +38,13 @@ class LTPipeline:
     y_train = None
     y_test = None
     
-    def __init__(self, file_names: list[str]):
+    def __init__(self, file_names: list[str], verbose=False):
         """
             args:
                 file_list - .edf file names to be parsed/included in the dataset
+                verbose - if True, does more logging
         """
+        self.verbose = verbose
         self.window_size = WINDOW_SIZE
         self.overlap = OVERLAP
         logger.info(f"{len(file_names)} total file(s) in pipeline!")
@@ -89,60 +94,101 @@ class LTPipeline:
         # assign to object for easily grabbing values again
         self.X_train, self.X_test, self.y_train, self.y_test = X_train, X_test, y_train, y_test
 
-        print('*'*20, 'Train Test Split results', '*'*20) 
-        print(f"X_train shape: {X_train.shape}")
-        print(f"X_test shape: {X_test.shape}")
-        print(f"y_train shape: {y_train.shape}")
-        print(f"y_test shape: {y_test.shape}")
+        if self.verbose:
+            print('*'*20, 'Train Test Split results', '*'*20) 
+            print(f"X_train shape: {X_train.shape}")
+            print(f"X_test shape: {X_test.shape}")
+            print(f"y_train shape: {y_train.shape}")
+            print(f"y_test shape: {y_test.shape}")
         
         return X_train, X_test, y_train, y_test
 
+    # def run(self):
+    #     """
+    #         Processes every file, saves as an object attribute, a dict where
+    #             key: patient_id
+    #             value: pd.DataFrame, all processed patient files are concatenated into this dataframe
+    #     """
+    #     # process all the data, store into a dict - key: patient_id, value: pd.DataFrame
+    #     patient_data = dict()
+        
+    #     for file in self.file_names:
+    #         patient_id = file.split("_")[0]
+    #         df = self.process(file)
+
+    #         if patient_id not in patient_data.keys():
+    #             patient_data[patient_id] = df
+    #         else:
+    #             patient_data[patient_id] = pd.concat([patient_data[patient_id], df], axis=0) # concat processed file to other processed files dataframe
+
+    #     # not all recordings record the same channels... tragically I'll have to prune all columns that are not common among all data frames
+    #     # any noncommon column introduces NaNs for the rest of the dataframe
+    #     # I could possibly fill it with the average/mean ... 
+    #     # TODO: try doing that ^ later. for now just drop all non common columns
+
+    #     # columns/extracted features seen across all df's
+    #     common_cols = list(reduce(lambda a, b: a & b, [set(df.columns) for patient_id, df in patient_data.items()]))
+        
+    #     # prune all uncommon columns
+    #     for patient_id, df in patient_data.items():
+    #         patient_data[patient_id] = df[common_cols]
+        
+    #     return patient_data
+
     def run(self):
         """
-            Processes every file, saves as an object attribute, a dict where
+            Processes every file concurrently using multithreading, saves as an object attribute,
+            a dict where:
                 key: patient_id
-                value: pd.DataFrame, all processed patient files are concatenated into this dataframe
+                value: pd.DataFrame
         """
-        # process all the data, store into a dict - key: patient_id, value: pd.DataFrame
         patient_data = dict()
-        
-        for file in self.file_names:
+    
+        def process_and_return(file: str):
             patient_id = file.split("_")[0]
             df = self.process(file)
-
-            if patient_id not in patient_data.keys():
-                patient_data[patient_id] = df
-            else:
-                patient_data[patient_id] = pd.concat([patient_data[patient_id], df], axis=0) # concat processed file to other processed files dataframe
-
-        # not all recordings record the same channels... tragically I'll have to prune all columns that are not common among all data frames
-        # any noncommon column introduces NaNs for the rest of the dataframe
-        # I could possibly fill it with the average/mean ... 
-        # TODO: try doing that ^ later. for now just drop all non common columns
-
-        # columns/extracted features seen across all df's
-        common_cols = list(reduce(lambda a, b: a & b, [set(df.columns) for patient_id, df in patient_data.items()]))
-        
-        # prune all uncommon columns
+            return patient_id, df
+    
+        # process files in parallel
+        with ThreadPoolExecutor(max_workers=THREAD_COUNT) as executor:
+            futures = {executor.submit(process_and_return, file): file for file in self.file_names}
+            for future in as_completed(futures):
+                try:
+                    patient_id, df = future.result()
+                    if patient_id not in patient_data:
+                        patient_data[patient_id] = df
+                    else:
+                        patient_data[patient_id] = pd.concat([patient_data[patient_id], df], axis=0)
+                except KeyboardInterrupt:  # gracefully shut down
+                    print("Interrupt received, shutting down executor...")
+                    executor.shutdown(wait=False, cancel_futures=True)
+                    raise
+                except Exception as e:
+                    logger.error(f"Failed processing {futures[future]}: {str(e)}")
+    
+        # Get common columns across all patient dataframes
+        common_cols = list(reduce(lambda a, b: a & b, [set(df.columns) for df in patient_data.values()]))
+    
+        # Prune non-common columns
         for patient_id, df in patient_data.items():
             patient_data[patient_id] = df[common_cols]
-        
+    
         return patient_data
 
-    # TODO: make this async so I can process multiple files in parallel
     def process(self, file_name: str):
         """
             Takes one file name, and runs the the pipeline on it, returns a dataframe
         """
-        print("*"*60)
-        logger.info(f"Processing file {file_name}")
+        if self.verbose:
+            print("*"*60)
+            logger.info(f"Processing file {file_name}")
         # pre-processing
         raw = self.annotate(file_name)
 
         channel_names = raw.describe(data_frame=True).name.tolist()
         sfreq = raw.info["sfreq"]   # sampling frequency
-
-        logger.info(f"{file_name} has {len(channel_names)} channels")
+        if self.verbose:
+            logger.info(f"{file_name} has {len(channel_names)} channels")
 
         # drop dud channels if any
         # TODO: do this somewhere else/to the file directly rather than here
@@ -209,9 +255,11 @@ class LTPipeline:
             returns:
                 epoch data which is a (segments x channels x samples) dimensional array. aka (n_epochs, n_channels, n_times)
         """
-        logger.info("Segmenting...")
+        if self.verbose:
+            logger.info("Segmenting...")
         epochs = mne.make_fixed_length_epochs(raw, duration=self.window_size, overlap=self.overlap, preload=True, verbose=False)
-        logger.info(f'total segments: {len(epochs)}')
+        if self.verbose:
+            logger.info(f'total segments: {len(epochs)}')
 
         # Label Vector Generation
         sfreq = raw.info["sfreq"]   # sampling frequency
@@ -322,7 +370,8 @@ class LTPipeline:
         returns:
             pd.DataFrame of all features, concatenated on axis=1
         '''        
-        logger.info(f"Now extracting features...")
+        if self.verbose:
+            logger.info(f"Now extracting features...")
 
         # time domain features
         mean_features = self.extract_mean(X)       # (n_segments, n_channels)
@@ -349,7 +398,8 @@ class LTPipeline:
         entropy = self.extract_spectral_entropy(X, sfreq)
 
         # convert features to dataframes
-        logger.info(f"Converting to dataframe...")
+        if self.verbose:
+            logger.info(f"Converting to dataframe...")
 
         df_mean = self._to_df(mean_features, "mean", channel_names)
         df_var = self._to_df(var_features, "var", channel_names)
@@ -376,7 +426,8 @@ class LTPipeline:
         ], axis=1)
         df["label"] = y
 
-        logger.info(f"SUCCESS! Created dataframe with {df.shape[0]} segments (records) and {df.shape[1]} features.")
+        if self.verbose: 
+            logger.info(f"SUCCESS! Created dataframe with {df.shape[0]} segments (records) and {df.shape[1]} features.")
         return df
 
 if __name__ == "__main__":
