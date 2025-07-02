@@ -3,7 +3,10 @@ import mne
 import warnings
 import numpy as np
 import antropy as ent
-from typing import Tuple, List
+import signal
+import sys
+import threading
+from typing import Tuple, List, Dict
 from functools import reduce
 from sklearn.preprocessing import StandardScaler
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -12,7 +15,7 @@ from extraction.tools import get_all_edf_files, get_seizure_path, get_all_seizur
 from extraction.pipeline import bandpower
 from extraction.logger import logger
 
-THREAD_COUNT = 4   # controls how many files can be processed in parallel
+THREAD_COUNT = 8   # controls how many files will be processed in parallel
 
 WINDOW_SIZE = 2.5  # in seconds
 OVERLAP = (0.5) * WINDOW_SIZE   # ALSO in seconds... doing it like this so I can just set as a % of window size
@@ -51,6 +54,9 @@ class LTPipeline:
         self.file_names = file_names
         
         self.seizures = get_all_seizures()
+
+        self.executor = None
+        self.shutdown_event = threading.Event() 
 
     def train_test_split(self, validation_patient_id: str) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         """
@@ -103,76 +109,76 @@ class LTPipeline:
         
         return X_train, X_test, y_train, y_test
 
-    # def run(self):
-    #     """
-    #         Processes every file, saves as an object attribute, a dict where
-    #             key: patient_id
-    #             value: pd.DataFrame, all processed patient files are concatenated into this dataframe
-    #     """
-    #     # process all the data, store into a dict - key: patient_id, value: pd.DataFrame
-    #     patient_data = dict()
-        
-    #     for file in self.file_names:
-    #         patient_id = file.split("_")[0]
-    #         df = self.process(file)
-
-    #         if patient_id not in patient_data.keys():
-    #             patient_data[patient_id] = df
-    #         else:
-    #             patient_data[patient_id] = pd.concat([patient_data[patient_id], df], axis=0) # concat processed file to other processed files dataframe
-
-    #     # not all recordings record the same channels... tragically I'll have to prune all columns that are not common among all data frames
-    #     # any noncommon column introduces NaNs for the rest of the dataframe
-    #     # I could possibly fill it with the average/mean ... 
-    #     # TODO: try doing that ^ later. for now just drop all non common columns
-
-    #     # columns/extracted features seen across all df's
-    #     common_cols = list(reduce(lambda a, b: a & b, [set(df.columns) for patient_id, df in patient_data.items()]))
-        
-    #     # prune all uncommon columns
-    #     for patient_id, df in patient_data.items():
-    #         patient_data[patient_id] = df[common_cols]
-        
-    #     return patient_data
-
-    def run(self):
+    def run(self) -> Dict[str, pd.DataFrame]:
         """
-            Processes every file concurrently using multithreading, saves as an object attribute,
-            a dict where:
-                key: patient_id
-                value: pd.DataFrame
+        Processes all files, using multithreading... extra logic added for properly closing spawned processes on keyboard interrupt
+        saves as an object attribute, a dict where:
+            key: patient_id
+            value: pd.DataFrame
         """
+        # helper function
+        def signal_handler(signum, frame):
+            print(f"Received signal {signum}, shutting down...")
+            self.shutdown_event.set()
+            if self.executor:
+                self.executor.shutdown(wait=False, cancel_futures=True)
+            sys.exit(0)
+        
+        # Set up signal handler for graceful shutdown
+        signal.signal(signal.SIGINT, signal_handler)
+        
         patient_data = dict()
-    
+        
         def process_and_return(file: str):
+            # Check if shutdown was requested
+            if self.shutdown_event.is_set():
+                return None
             patient_id = file.split("_")[0]
             df = self.process(file)
             return patient_id, df
-    
-        # process files in parallel
-        with ThreadPoolExecutor(max_workers=THREAD_COUNT) as executor:
-            futures = {executor.submit(process_and_return, file): file for file in self.file_names}
-            for future in as_completed(futures):
-                try:
-                    patient_id, df = future.result()
-                    if patient_id not in patient_data:
-                        patient_data[patient_id] = df
-                    else:
-                        patient_data[patient_id] = pd.concat([patient_data[patient_id], df], axis=0)
-                except KeyboardInterrupt:  # gracefully shut down
-                    print("Interrupt received, shutting down executor...")
-                    executor.shutdown(wait=False, cancel_futures=True)
-                    raise
-                except Exception as e:
-                    logger.error(f"Failed processing {futures[future]}: {str(e)}")
-    
-        # Get common columns across all patient dataframes
-        common_cols = list(reduce(lambda a, b: a & b, [set(df.columns) for df in patient_data.values()]))
-    
-        # Prune non-common columns
-        for patient_id, df in patient_data.items():
-            patient_data[patient_id] = df[common_cols]
-    
+        
+        try:
+            with ThreadPoolExecutor(max_workers=THREAD_COUNT) as executor:
+                self.executor = executor
+                futures = {executor.submit(process_and_return, file): file for file in self.file_names}
+                
+                # Process completed futures
+                for future in as_completed(futures):
+                    # Check if shutdown was requested
+                    if self.shutdown_event.is_set():
+                        break
+                        
+                    try:
+                        result = future.result(timeout=1)  # Add timeout to prevent hanging
+                        if result is None:  # Task was cancelled
+                            continue
+                            
+                        patient_id, df = result
+                        if patient_id not in patient_data:
+                            patient_data[patient_id] = df
+                        else:
+                            patient_data[patient_id] = pd.concat([patient_data[patient_id], df], axis=0)
+                            
+                    except Exception as e:
+                        logger.error(f"Failed processing {futures[future]}: {str(e)}")
+                        
+        except KeyboardInterrupt:
+            print("KeyboardInterrupt received, shutting down...")
+            self.shutdown_event.set()
+            if self.executor:
+                self.executor.shutdown(wait=False, cancel_futures=True)
+            raise
+        finally:
+            self.executor = None
+            
+        if not self.shutdown_event.is_set() and patient_data:
+            # get common columns across all patient dataframes
+            common_cols = list(reduce(lambda a, b: a & b, [set(df.columns) for df in patient_data.values()]))
+            
+            # prune non-common columns
+            for patient_id, df in patient_data.items():
+                patient_data[patient_id] = df[common_cols]
+        
         return patient_data
 
     def process(self, file_name: str):
