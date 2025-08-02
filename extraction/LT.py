@@ -9,7 +9,7 @@ import threading
 from typing import Tuple, List, Dict
 from functools import reduce
 from sklearn.preprocessing import StandardScaler
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 from extraction.tools import get_all_edf_files, get_seizure_path, get_all_seizures
 from extraction.pipeline import bandpower
@@ -21,6 +21,16 @@ WINDOW_SIZE = 2.5  # in seconds
 OVERLAP = (0.5) * WINDOW_SIZE   # ALSO in seconds... doing it like this so I can just set as a % of window size
 
 LOW_PASS_FILTER_FREQ = 50  # lowpass frequency for preprocessing data
+
+def _process_file_worker(file_name: str) -> Tuple[str, pd.DataFrame]:
+    """
+    Worker function for multiprocessing. Must be at module level to be pickable.
+    """
+    # Create a temporary pipeline instance for this worker
+    pipeline = LTPipeline([file_name], verbose=False)
+    patient_id = file_name.split("_")[0]
+    df = pipeline.process(file_name)
+    return patient_id, df
 
 '''
     Load-Transform pipeline class that takes in list of EEG files to parse and will
@@ -128,18 +138,10 @@ class LTPipeline:
         
         patient_data = dict()
         
-        def process_and_return(file: str):
-            # Check if shutdown was requested
-            if self.shutdown_event.is_set():
-                return None
-            patient_id = file.split("_")[0]
-            df = self.process(file)
-            return patient_id, df
-        
         try:
-            with ThreadPoolExecutor(max_workers=THREAD_COUNT) as executor:
+            with ProcessPoolExecutor(max_workers=THREAD_COUNT) as executor:
                 self.executor = executor
-                futures = {executor.submit(process_and_return, file): file for file in self.file_names}
+                futures = {executor.submit(_process_file_worker, file): file for file in self.file_names}
                 
                 # Process completed futures
                 for future in as_completed(futures):
@@ -444,6 +446,9 @@ class LTPipeline:
     #     total_ictal state
 
 if __name__ == "__main__":
+    import multiprocessing
+    multiprocessing.set_start_method('spawn', force=True)  # Required for proper multiprocessing
+    
     ltp = LTPipeline(file_names=['chb15_06.edf', 'chb15_01.edf', 'chb01_01.edf', 'chb01_02.edf', 'chb01_03.edf', 'chb01_04.edf', 'chb01_05.edf', 'chb01_06.edf'])
 
     import time
@@ -451,5 +456,5 @@ if __name__ == "__main__":
     ltp.train_test_split('chb15')
 
     finish = time.time() - start
-    print(f'Elapsed time for processing 4 files: {finish:.2f}s')
+    print(f'Elapsed time for processing 8 files: {finish:.2f}s')
     
