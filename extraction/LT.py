@@ -435,8 +435,21 @@ class LTPipeline:
             logger.info(f"SUCCESS! Created dataframe with {df.shape[0]} segments (records) and {df.shape[1]} features.")
         return df
 
+    # def oversample(multiplier: int):
+    #     '''
+    #         adjusts the class X_train attribute/dataframe to have more of the ictal state
+    #     args:
+    #         multiplier - however many true records there are, will multiply the row count by that much            
+    #     '''
+    #     total_ictal state
+
 if __name__ == "__main__":
     ltp = LTPipeline(file_names=['chb15_06.edf', 'chb15_01.edf', 'chb01_01.edf', 'chb01_02.edf'])
 
+    import time
+    start = time.time()
     ltp.train_test_split('chb15')
+
+    finish = time.time() - start
+    print(f'Elapsed time for processing 4 files: {finish:.2f}s'
     
