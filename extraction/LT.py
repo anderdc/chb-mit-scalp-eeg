@@ -10,12 +10,14 @@ from typing import Tuple, List, Dict
 from functools import reduce
 from sklearn.preprocessing import StandardScaler
 from concurrent.futures import ProcessPoolExecutor, as_completed
-
+import multiprocessing
+multiprocessing.set_start_method('spawn', force=True)  # Required for proper multiprocessing
+    
 from extraction.tools import get_all_edf_files, get_seizure_path, get_all_seizures
 from extraction.pipeline import bandpower
 from extraction.logger import logger
 
-THREAD_COUNT = 8   # controls how many files will be processed in parallel
+THREAD_COUNT = 9   # controls how many files will be processed in parallel
 
 WINDOW_SIZE = 2.5  # in seconds
 OVERLAP = (0.5) * WINDOW_SIZE   # ALSO in seconds... doing it like this so I can just set as a % of window size
@@ -60,7 +62,6 @@ class LTPipeline:
         self.verbose = verbose
         self.window_size = WINDOW_SIZE
         self.overlap = OVERLAP
-        logger.info(f"{len(file_names)} total file(s) in pipeline!")
         self.file_names = file_names
         
         self.seizures = get_all_seizures()
@@ -76,6 +77,7 @@ class LTPipeline:
             returns: 
                 tuple of pd.DataFrames - intended to be unpacked as X_train, X_test, y_train, y_test
         """
+        logger.info(f"{len(self.file_names)} total file(s) in pipeline!")
         # return if validation patient doesn't exist in data
         if validation_patient_id not in [x.split("_")[0] for x in self.file_names]:
             logger.error(f"Cannot find {validation_patient_id} in the processed data, did you include at least one file from that patient?")
@@ -446,9 +448,6 @@ class LTPipeline:
     #     total_ictal state
 
 if __name__ == "__main__":
-    import multiprocessing
-    multiprocessing.set_start_method('spawn', force=True)  # Required for proper multiprocessing
-    
     ltp = LTPipeline(file_names=['chb15_06.edf', 'chb15_01.edf', 'chb01_01.edf', 'chb01_02.edf', 'chb01_03.edf', 'chb01_04.edf', 'chb01_05.edf', 'chb01_06.edf'])
 
     import time
