@@ -444,12 +444,12 @@ class LTPipeline:
     #     total_ictal state
 
 if __name__ == "__main__":
-    ltp = LTPipeline(file_names=['chb15_06.edf', 'chb15_01.edf', 'chb01_01.edf', 'chb01_02.edf'])
+    ltp = LTPipeline(file_names=['chb15_06.edf', 'chb15_01.edf', 'chb01_01.edf', 'chb01_02.edf', 'chb01_03.edf', 'chb01_04.edf', 'chb01_05.edf', 'chb01_06.edf'])
 
     import time
     start = time.time()
     ltp.train_test_split('chb15')
 
     finish = time.time() - start
-    print(f'Elapsed time for processing 4 files: {finish:.2f}s'
+    print(f'Elapsed time for processing 4 files: {finish:.2f}s')
     
