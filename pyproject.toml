@@ -4,10 +4,22 @@ version = "0.1.0"
 description = "Tools and methods for parsing and analyzing CHB-MIT EEG seizure data"
 authors = [{ name="Alexander Castaneda", email="alexanderdcastaneda@gmail.com" }]
 readme = "README.md"
-requires-python = ">=3.8"
-
-[project.optional-dependencies]
-dev = ["jupyter", "black"]
+requires-python = ">=3.11"
+dependencies = [
+    "antropy>=0.1.9",
+    "jupyterlab>=4.4.0",
+    "matplotlib>=3.10.1",
+    "mne>=1.9.0",
+    "numba>=0.61.2",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+    "ipywidgets>=8.1.6",
+]
 
 [build-system]
 requires = ["setuptools>=61.0"]

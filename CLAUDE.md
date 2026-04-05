@@ -9,17 +9,11 @@ This is an EEG seizure detection project using the CHB-MIT scalp EEG dataset. Th
 ## Development Setup
 
 ```bash
-# Create virtual environment (requires Python 3.11+)
-virtualenv -p=/usr/bin/python3.11 ./venv
+# Install dependencies and set up the project
+uv sync
 
-# Activate environment
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Install project in development mode
-pip install -e .
+# Run any project command
+uv run <command>
 ```
 
 ## Data Structure
@@ -83,8 +77,7 @@ The project implements both time-domain and frequency-domain features:
 
 For remote development:
 ```bash
-source venv/bin/activate
-jupyter lab --no-browser --ip=<your_server_ip> --port=8080 > logs/jupyter.log 2>&1 &
+uv run jupyter lab --no-browser --ip=<your_server_ip> --port=8080 > logs/jupyter.log 2>&1 &
 ```
 
 ## Key Dependencies
