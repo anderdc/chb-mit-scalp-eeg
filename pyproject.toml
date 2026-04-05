@@ -2,11 +2,12 @@
 name = "chb_mit_seizure_prediction"
 version = "0.1.0"
 description = "Tools and methods for parsing and analyzing CHB-MIT EEG seizure data"
-authors = [{ name="Alexander Castaneda", email="alexanderdcastaneda@gmail.com" }]
+authors = [{ name="Alexander Castaneda", email="me@alexanderdc.com" }]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "antropy>=0.1.9",
+    "colorlog>=6.9.0",
     "jupyterlab>=4.4.0",
     "matplotlib>=3.10.1",
     "mne>=1.9.0",

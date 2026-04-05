@@ -17,7 +17,7 @@ from extraction.tools import get_all_edf_files, get_seizure_path, get_all_seizur
 from extraction.pipeline import bandpower
 from extraction.logger import logger
 
-THREAD_COUNT = 9   # controls how many files will be processed in parallel
+THREAD_COUNT = 7   # controls how many files will be processed in parallel
 
 WINDOW_SIZE = 2.5  # in seconds
 OVERLAP = (0.5) * WINDOW_SIZE   # ALSO in seconds... doing it like this so I can just set as a % of window size
@@ -439,13 +439,57 @@ class LTPipeline:
             logger.info(f"SUCCESS! Created dataframe with {df.shape[0]} segments (records) and {df.shape[1]} features.")
         return df
 
-    # def oversample(multiplier: int):
-    #     '''
-    #         adjusts the class X_train attribute/dataframe to have more of the ictal state
-    #     args:
-    #         multiplier - however many true records there are, will multiply the row count by that much            
-    #     '''
-    #     total_ictal state
+    def resample(self, ratio: float = 0.5, seed: int = 27):
+        """
+        Resamples training data to address class imbalance by oversampling ictal (1)
+        and undersampling non-ictal (0). Must be called after train_test_split().
+
+        args:
+            ratio - target ratio of ictal to non-ictal samples.
+                    e.g. 0.5 means 1 ictal for every 2 non-ictal (1:2)
+                    e.g. 1.0 means equal counts (1:1)
+            seed - random seed for reproducibility
+        """
+        if self.X_train is None or self.y_train is None:
+            logger.error("Must call train_test_split() before resample()")
+            return
+
+        rng = np.random.default_rng(seed)
+
+        # separate classes
+        ictal_mask = self.y_train == 1
+        X_ictal = self.X_train[ictal_mask]
+        X_non_ictal = self.X_train[~ictal_mask]
+        n_ictal = len(X_ictal)
+        n_non_ictal = len(X_non_ictal)
+
+        logger.info(f"Before resampling — ictal: {n_ictal}, non-ictal: {n_non_ictal} (ratio: {n_ictal/n_non_ictal:.6f})")
+
+        # target counts: undersample non-ictal, oversample ictal to hit the ratio
+        # use geometric mean of current counts as the target non-ictal count
+        target_non_ictal = int(np.sqrt(n_ictal * n_non_ictal))
+        target_ictal = int(target_non_ictal * ratio)
+
+        # oversample ictal (sample with replacement)
+        ictal_indices = rng.choice(n_ictal, size=target_ictal, replace=True)
+        X_ictal_resampled = X_ictal.iloc[ictal_indices].reset_index(drop=True)
+        y_ictal_resampled = pd.Series(np.ones(target_ictal, dtype=int))
+
+        # undersample non-ictal (sample without replacement)
+        non_ictal_indices = rng.choice(n_non_ictal, size=target_non_ictal, replace=False)
+        X_non_ictal_resampled = X_non_ictal.iloc[non_ictal_indices].reset_index(drop=True)
+        y_non_ictal_resampled = pd.Series(np.zeros(target_non_ictal, dtype=int))
+
+        # combine and shuffle
+        X_resampled = pd.concat([X_ictal_resampled, X_non_ictal_resampled], axis=0)
+        y_resampled = pd.concat([y_ictal_resampled, y_non_ictal_resampled], axis=0)
+
+        shuffle_idx = rng.permutation(len(X_resampled))
+        self.X_train = X_resampled.iloc[shuffle_idx].reset_index(drop=True)
+        self.y_train = y_resampled.iloc[shuffle_idx].reset_index(drop=True)
+
+        logger.info(f"After resampling  — ictal: {target_ictal}, non-ictal: {target_non_ictal} (ratio: {target_ictal/target_non_ictal:.4f})")
+
 
 if __name__ == "__main__":
     ltp = LTPipeline(file_names=['chb15_06.edf', 'chb15_01.edf', 'chb01_01.edf', 'chb01_02.edf', 'chb01_03.edf', 'chb01_04.edf', 'chb01_05.edf', 'chb01_06.edf'])

@@ -47,5 +47,10 @@ uv run jupyter lab --no-browser --ip=<your_server_ip> --port=8080 > logs/jupyter
    - **Feature extraction** — time-domain (mean, variance, MAV, skewness) and frequency-domain (absolute/relative band power, spectral entropy, peak frequency)
 4. **Generalizing the pipeline** — extended the single-file workflow to process all patient files
 5. **Model experiments** — SVM and neural network classifiers (see `models/`)
-
-
+   - SVM failed to predict ictal states due to extreme class imbalance (~1,144:1 non-ictal to ictal)
+   - Deep NN with class-weighted cross-entropy loss had the same problem — 0% recall on ictal class
+   - Added resampling (random oversampling of ictal + undersampling of non-ictal) to the pipeline, which got the model to finally produce ictal predictions
+6. **Current challenge: feature quality** — the model predicts ictal states now but with very low recall. Visual inspection of feature distributions shows that separation between classes is highly channel-dependent (e.g., beta/theta band power on C3-P3 shows clear signal, while other channels show none). Next steps:
+   - Feature selection — drop low-signal features and channels that add noise
+   - Focus on the most discriminative features (band power features, especially beta and theta)
+   - Potentially reduce from 345 features to a smaller, higher-quality set
